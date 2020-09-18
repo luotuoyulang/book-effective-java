@@ -12,8 +12,10 @@ import java.util.concurrent.Semaphore;
 public class Test {
 
     public static void main(String[] args) {
-        // 1
-
-        // 2
+        Integer a = 2;
+        Integer b = null;
+        int i = ((Integer) b).intValue();
+        System.out.println("i = " + i);
+//        System.out.println("a.compareTo(1) = " + a.equals(null));
     }
 }
